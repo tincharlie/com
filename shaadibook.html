@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>The Shukla Marriage Lawn </title>
+	<link rel="stylesheet" type="text/css" href="shaadistyle.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+		<section class="sub-header" >
+			<nav >
+				<a href="shaadiindex.html"> <img src="pics/logo.png" class="logo"></a>
+				<div class="nav-links" id="navLinks">
+				   <i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul class="unorder-col">
+						<li><a href="shaadiindex.html">HOME</a></li>
+						<li><a href="shaadiabout.html">ABOUT</a></li>
+						<li><a href="shaadiexplore.html">EXPLORE</a></li>
+						<li><a href="shaadiblog.html">BLOG</a></li>
+						<li><a href="shaadicontact.html">CONTACT</a></li>
+						<li><a href="shaadibook.html">BOOKING</a></li>
+					</ul>
+				</div>
+			   <i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+
+			<h1>Bookings</h1>
+		</section>
+<!-------bookings--------->
+<section class="bookings">
+	<div class="container">
+
+		<div class="container-time">
+			<h2 class="heading">Time Open</h2>
+			<h3 class="heading-days">Monday-Saturday</h3>
+			<p>9am - 2pm (lunch time)</p>
+			<p>3pm - 8pm (dinner time)</p>
+
+			<h3 class="heading-days">Sunday</h3>
+			<p>9am - 1pm (lunch time)</p>
+			<p>1pm - 7pm (dinner time)</p>
+
+			<hr>
+
+			<h4 class="heading-phone">Call us : (+91) 877-378-8773</h4>
+	
+	
+		</div>
+		<div class="container-form">
+			<form action="#">
+				<h2 class="heading heading-yellow">Bookings Online</h2>
+				<div class="form-field">
+					<p>
+						Your Name
+					</p>
+					<input type="text" placeholder="Your Name">
+				</div>
+				<div class="form-field">
+					<p>
+						Your Email
+					</p>
+					<input type="email" placeholder="Your Email">
+				</div>
+				<div class="form-field">
+					<p>
+						Date
+					</p>
+					<input type="date" >
+				</div>
+				<div class="form-field">
+					<p>
+						Time
+					</p>
+					<input type="time" >
+				</div>
+				<div class="form-field">
+					<p>
+						How many guests will come round figure
+					</p>
+					<select name="select" id="#">
+						<option value="1">200</option>
+						<option value="2">500</option>
+						<option value="3">900</option>
+						<option value="4">1500</option>
+						<option value="5">2000</option>
+						<option value="6">2000+</option>
+					</select> 
+
+				</div>
+				<button class="btn">Submit</button>
+
+			</form>
+			
+		</div>
+		
+	</div>
+	
+
+
+</section>
+
+
+
+<section class="footer">
+	<h4>BOOKINGS</h4>
+		<p >Here, we are providing facilities in very regionable donation. Our staff also very helpfull nature they didnt ask for tip it depends onj the customer who give the tip if like the work of our staff. </p> 
+<div class="icons">
+	<i class="fa fa-facebook"></i>
+	<i class="fa fa-twitter"></i>
+	<i class="fa fa-whatsapp"></i>
+</div>
+<p> Made With <i class="fa fa-heart-o"></i> Easy Booking</p>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu--------->
+<script >
+	var navLinks=document.getElemenytById("navLinks");
+	
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+
+	}
+</script>
+
+</body>
+</html>
